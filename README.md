@@ -54,11 +54,11 @@ nova simulate input.bam config.json \
 -p nova
 ```
 
-For more options and info, read the [simulate](https://github.com/sudmantlab/nova/docs/simulate) and [configuration](https://github.com/sudmantlab/nova/docs/configuration.md) docs.
+For more options and info, read the [quick-start simulate](https://github.com/sudmantlab/nova/wiki/Simulate) and [configuration](https://github.com/sudmantlab/nova/wiki/Configuration) docs.
 
 ### Analysis
 
-`nova` is a variant simulator and doesn't perform variant calling and simulation analysis on its own. There are a number of accompanying scripts that you can use to assess your simulations, described in the [analysis docs](https://github.com/sudmantlab/nova/docs/analysis.md) and run by default in the analysis pipeline.
+`nova` is a variant simulator and doesn't perform variant calling and simulation analysis on its own. There are a number of accompanying scripts that you can use to assess your simulations, described in the [analysis docs](https://github.com/sudmantlab/nova/wiki/Analysis) and run by default in the analysis pipeline.
 
 
 ## Analysis pipeline
