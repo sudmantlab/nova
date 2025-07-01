@@ -1,0 +1,12 @@
+setuptools==80.9.0 # note: flagged for deprecation, dependency of pyranges
+biopython==1.85
+pysam==0.23.3
+pandas==2.3.0
+numpy==2.3.1
+pyranges==0.1.4
+rich-click==1.8.9
+matplotlib==3.10.3
+seaborn==0.13.2
+# Note: Bioinformatics CLI tools (samtools, bedtools, bcftools, minimap2) 
+# must be installed separately via conda environment.yml or system package manager
+# setuptools pinned as dependency of pyranges, but API is flagged for deprecation
