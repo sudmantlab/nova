@@ -1,0 +1,40 @@
+{
+  "random": [{
+    "n": 500,
+    "length": 250,
+    "gc_content": 0.5
+  },
+  {
+    "n": 500,
+    "length": 1000,
+    "gc_content": 0.5
+  }
+  ],
+  "simple": [
+    {
+    "n": 20,
+    "repeat": "CAG",
+    "units": 20
+  }
+  ],
+  "predefined": [
+    {"Alu": {
+      "fasta": "/global/scratch/users/landen_gozashti/tools/nova/predefined/dfam_AluY_homininae.fasta",
+      "spec": {
+        "AluYa5": 200,
+        "AluYb8": 120,
+        "AluYa8": 100,
+        "AluYb9": 60,
+        "AluYk11": 60,
+        "AluYk12": 60
+      }
+    }
+  },
+  {"L1HS": {
+    "fasta": "/global/scratch/users/landen_gozashti/tools/nova/predefined/dfam_L1HS_homininae.fasta",
+    "spec": {"L1HS_5end": 60,
+    "L1HS_3end": 60,
+    "L1HS_full": 80}
+  }}
+  ]
+}
